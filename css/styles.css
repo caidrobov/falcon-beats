@@ -264,6 +264,8 @@ ul.releases{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
 /* beats store */
 .store-intro{display:grid;gap:6px;margin-bottom:18px}
 .store-intro p{margin:0;color:var(--muted);max-width:60ch}
+.store-intro p.beat-coming-soon{display:grid;justify-items:center;gap:10px;max-width:720px;margin:8px auto 0;padding:22px 24px;border:1px solid #f2b13455;border-radius:12px;background:linear-gradient(110deg,#f2b13412,#111522b8 72%);text-align:center;line-height:1.7;font-size:clamp(16px,2vw,19px)}
+.beat-coming-soon-label{color:var(--gold);font-family:var(--f-mono);font-size:14px;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 .beat-filters{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;margin-bottom:12px}
 .beat-filters select,.beat-search{min-width:0;height:44px;padding:0 12px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--text);font:600 13px var(--f-body)}
