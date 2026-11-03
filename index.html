@@ -1,6 +1,20 @@
 <!doctype html>
 <html lang="es">
 <head>
+  <!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KMYPLJZLYQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {
+    ad_storage: 'denied',
+    ad_user_data: 'denied',
+    ad_personalization: 'denied',
+    analytics_storage: 'granted'
+  });
+  gtag('js', new Date());
+  gtag('config', 'G-KMYPLJZLYQ');
+</script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="description" content="Falcon Beats: productor colombiano. Lanzamientos, video oficial de Látigo y beats con licencia.">
@@ -11,7 +25,22 @@
 <link rel="stylesheet" href="css/styles.css?v=3">
 </head>
 <body>
-
+<!-- Aviso de cookies -->
+<div id="cookieBar" hidden style="position:fixed;left:16px;right:16px;bottom:16px;z-index:9999;max-width:560px;margin:0 auto;background:#171b2e;color:#ecebf4;border:1px solid #f2b13466;border-radius:14px;padding:14px 16px;display:flex;gap:12px;align-items:center;flex-wrap:wrap;font:14px/1.4 system-ui,sans-serif;box-shadow:0 10px 30px #0008">
+  <span style="flex:1;min-width:200px">Usamos cookies de Google Analytics para saber cuántas personas visitan la página y mejorarla. No las usamos para publicidad.</span>
+  <button id="cookieOk" style="background:#f2b134;color:#1a1405;border:0;border-radius:999px;padding:9px 16px;font-weight:700;cursor:pointer">Entendido</button>
+</div>
+<script>
+  (function(){
+    var bar=document.getElementById('cookieBar'), seen=false;
+    try{ seen=localStorage.getItem('fb_cookies')==='ok'; }catch(e){}
+    if(!seen) bar.hidden=false;
+    document.getElementById('cookieOk').onclick=function(){
+      bar.hidden=true;
+      try{ localStorage.setItem('fb_cookies','ok'); }catch(e){}
+    };
+  })();
+</script>
 <div class="wrap">
   <header class="site-header">
     <a class="brand-link" href="#inicio" aria-label="Falcon Beats, inicio"><img class="brand-logo" src="img/logo-dorado.png" alt="Falcon Beats"></a>
