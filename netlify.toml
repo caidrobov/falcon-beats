@@ -1,0 +1,23 @@
+# Configuración de Netlify para soyfalconbeats.com
+# Encabezados de seguridad: protegen a tus visitantes sin cambiar cómo se ve la página.
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    # Obliga a usar siempre https (el candado)
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains"
+    # Impide que otra página meta la tuya dentro de un marco para engañar a la gente
+    X-Frame-Options = "DENY"
+    # Evita que el navegador malinterprete tus archivos
+    X-Content-Type-Options = "nosniff"
+    # Comparte solo lo necesario al abrir enlaces externos (YouTube lo necesita así)
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    # Bloquea cámara, micrófono y ubicación: tu página no los usa
+    Permissions-Policy = "camera=(), microphone=(), geolocation=(), payment=()"
+
+# Que no se pueda ver el archivo de recomendaciones de VS Code
+[[redirects]]
+  from = "/.vscode/*"
+  to = "/404.html"
+  status = 404
+  force = true
