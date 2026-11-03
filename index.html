@@ -17,12 +17,12 @@
 </script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="description" content="Falcon Beats: productor colombiano. Lanzamientos, video oficial de Látigo y beats con licencia.">
+<meta name="description" content="Falcon Beats: la música se crea, las carreras se construyen. Ejecuta tu visión con metas claras.">
 <link rel="icon" href="img/logo-blanco.png">
 <title>Falcon Beats</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;800&family=Figtree:wght@400;500;700&family=JetBrains+Mono:wght@500&display=swap">
-<link rel="stylesheet" href="css/styles.css?v=3">
+<link rel="stylesheet" href="css/styles.css?v=12">
 </head>
 <body>
 <!-- Aviso de cookies -->
@@ -47,9 +47,9 @@
     <span class="header-divider" aria-hidden="true"></span>
     <nav class="tabs" id="falconMenu" aria-label="Secciones">
       <a class="tab" href="#inicio" data-view="inicio">Inicio</a>
-      <a class="tab" href="#beats" data-view="beats">Comprar Beats<span class="count" id="beatCount"></span></a>
       <a class="tab" href="#musica" data-view="musica">Mi Música</a>
-      <a class="tab" href="#lanzamiento" data-view="lanzamiento">Producciones</a>
+      <a class="tab" href="#lanzamiento" data-view="lanzamiento">Lanzamientos</a>
+      <a class="tab" href="#beats" data-view="beats">Comprar Beats<span class="count" id="beatCount"></span></a>
       <a class="tab" href="#estudio" data-view="estudio">Estudio</a>
       <a class="tab" href="#biografia" data-view="biografia">Sobre mí</a>
     </nav>
@@ -59,18 +59,24 @@
 
   <div id="view-inicio" hidden>
     <section class="launch-hero" aria-labelledby="homeTitle">
-      <div class="launch-hero-content">
-        <span class="eyebrow">Último lanzamiento · Falcon Beats</span>
-        <h1 id="homeTitle"><span>LÁTIGO</span><strong>KILATE RAMOS</strong></h1>
-        <p>Escucha «Látigo», el lanzamiento de Kilate Ramos producido por Falcon Beats.</p>
-        <div class="home-actions">
-          <a class="btn-buy" href="#lanzamiento"><span aria-hidden="true">♫</span> Explorar producciones <span aria-hidden="true">→</span></a>
-          <a class="home-listen" href="#musica"><span aria-hidden="true">▷</span> Escuchar mi música</a>
+      <div class="launch-hero-content home-hero-copy">
+        <span class="eyebrow">Falcon Beats · Productor musical y ejecutivo</span>
+        <h1 class="home-hero-title" id="homeTitle"><span>LA MÚSICA SE CREA.</span><strong>LAS CARRERAS SE CONSTRUYEN.</strong></h1>
+        <p>Ejecuta tu visión con metas claras.</p>
+        <div class="home-spotify-wrap">
+          <div class="home-spotify-player">
+            <iframe
+              title="Escucha las producciones de Falcon Beats en Spotify"
+              src="https://open.spotify.com/embed/artist/5pQvD1IF7VIeNDOgOgMZUM?utm_source=generator&amp;theme=0"
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy">
+            </iframe>
+          </div>
+          <a class="home-spotify-open" href="https://open.spotify.com/artist/5pQvD1IF7VIeNDOgOgMZUM" target="_blank" rel="noopener">Volumen y cambio de canciones en Spotify <span aria-hidden="true">↗</span></a>
         </div>
-        <div class="home-services" aria-label="Servicios">
-          <span>Beats con licencia</span>
-          <span>Producción integral</span>
-          <span>Mezcla y master</span>
+        <div class="home-actions">
+          <a class="btn-buy" href="#contacto"><span aria-hidden="true">♫</span> Presenta tu proyecto <span aria-hidden="true">→</span></a>
+          <a class="home-listen" href="#lanzamiento"><span aria-hidden="true">▷</span> Escucha mis producciones</a>
         </div>
         <div class="home-socials" aria-label="Redes sociales">
           <a href="https://open.spotify.com/artist/5pQvD1IF7VIeNDOgOgMZUM" target="_blank" rel="noopener">Spotify</a>
@@ -85,7 +91,7 @@
     <section class="home-dashboard" aria-label="Música y catálogo">
       <div class="home-production-panel">
         <div class="home-panel-heading">
-          <span class="eyebrow">Últimas producciones</span>
+          <span class="eyebrow">Últimos lanzamientos</span>
           <a href="#lanzamiento">Ver todas <span aria-hidden="true">→</span></a>
         </div>
         <div class="home-production-grid">
@@ -95,12 +101,12 @@
             <i aria-hidden="true">▶</i>
           </a>
           <a class="home-track" href="https://www.youtube.com/watch?v=tBa1RI6ljUE&amp;list=RDtBa1RI6ljUE&amp;start_radio=1" target="_blank" rel="noopener">
-            <img src="https://img.youtube.com/vi/tBa1RI6ljUE/hqdefault.jpg" alt="" loading="lazy">
+            <img src="https://img.youtube.com/vi/tBa1RI6ljUE/maxresdefault.jpg" alt="" loading="lazy">
             <span><b>Boca con Boca</b><small>KILATE RAMOS · ESCUCHAR EN YOUTUBE</small></span>
             <i aria-hidden="true">▶</i>
           </a>
           <a class="home-track" href="https://www.youtube.com/watch?v=cobhX1mhPSc&amp;list=RDcobhX1mhPSc&amp;start_radio=1" target="_blank" rel="noopener">
-            <img src="https://img.youtube.com/vi/cobhX1mhPSc/hqdefault.jpg" alt="" loading="lazy">
+            <img src="https://img.youtube.com/vi/cobhX1mhPSc/maxresdefault.jpg" alt="" loading="lazy">
             <span><b>Escapémonos</b><small>SR KAPO · ESCUCHAR EN YOUTUBE</small></span>
             <i aria-hidden="true">▶</i>
           </a>
@@ -166,51 +172,51 @@
           <span class="production-label"><span class="production-title">Látigo <span class="production-artist">· Kilate Ramos</span></span><span class="production-action">Último lanzamiento ↗</span></span>
         </a>
         <a class="production-card" href="https://www.youtube.com/watch?v=tBa1RI6ljUE&amp;list=RDtBa1RI6ljUE&amp;start_radio=1" target="_blank" rel="noopener" aria-label="Ver Boca con Boca de Kilate Ramos en YouTube">
-          <span class="production-thumb"><img src="https://img.youtube.com/vi/tBa1RI6ljUE/hqdefault.jpg" alt="" loading="lazy"><span aria-hidden="true">▶</span></span>
+          <span class="production-thumb"><img src="https://img.youtube.com/vi/tBa1RI6ljUE/maxresdefault.jpg" alt="" loading="lazy"><span aria-hidden="true">▶</span></span>
           <span class="production-label"><span class="production-title">Boca con Boca <span class="production-artist">· Kilate Ramos</span></span><span class="production-action">Ver en YouTube ↗</span></span>
         </a>
         <a class="production-card" href="https://www.youtube.com/watch?v=cobhX1mhPSc&amp;list=RDcobhX1mhPSc&amp;start_radio=1" target="_blank" rel="noopener" aria-label="Ver Escapémonos de Sr Kapo en YouTube">
-          <span class="production-thumb"><img src="https://img.youtube.com/vi/cobhX1mhPSc/hqdefault.jpg" alt="" loading="lazy"><span aria-hidden="true">▶</span></span>
+          <span class="production-thumb"><img src="https://img.youtube.com/vi/cobhX1mhPSc/maxresdefault.jpg" alt="" loading="lazy"><span aria-hidden="true">▶</span></span>
           <span class="production-label"><span class="production-title">Escapémonos <span class="production-artist">· Sr Kapo</span></span><span class="production-action">Ver en YouTube ↗</span></span>
         </a>
         <a class="production-card" href="https://www.youtube.com/watch?v=h2zqu_S1jAs" target="_blank" rel="noopener" aria-label="Ver Controla de Jetsy y Erreosh en YouTube">
-          <span class="production-thumb"><img src="https://img.youtube.com/vi/h2zqu_S1jAs/hqdefault.jpg" alt="" loading="lazy"><span aria-hidden="true">▶</span></span>
+          <span class="production-thumb"><img src="https://img.youtube.com/vi/h2zqu_S1jAs/maxresdefault.jpg" alt="" loading="lazy"><span aria-hidden="true">▶</span></span>
           <span class="production-label"><span class="production-title">Controla <span class="production-artist">· Jetsy x Erreosh</span></span><span class="production-action">Ver en YouTube ↗</span></span>
         </a>
         <a class="production-card" href="https://www.youtube.com/watch?v=ULDS7_Zy3WQ&amp;list=RDULDS7_Zy3WQ&amp;start_radio=1" target="_blank" rel="noopener" aria-label="Ver Oh mami de BIEY en YouTube">
-          <span class="production-thumb"><img src="https://img.youtube.com/vi/ULDS7_Zy3WQ/hqdefault.jpg" alt="" loading="lazy"><span aria-hidden="true">▶</span></span>
+          <span class="production-thumb"><img src="https://img.youtube.com/vi/ULDS7_Zy3WQ/maxresdefault.jpg" alt="" loading="lazy"><span aria-hidden="true">▶</span></span>
           <span class="production-label"><span class="production-title">Oh mami <span class="production-artist">· BIEY</span></span><span class="production-action">Ver en YouTube ↗</span></span>
         </a>
         <a class="production-card" href="https://www.youtube.com/watch?v=v_nUjs29fP0" target="_blank" rel="noopener" aria-label="Ver Efecto Mandela de Jetsy en YouTube">
-          <span class="production-thumb"><img src="https://img.youtube.com/vi/v_nUjs29fP0/hqdefault.jpg" alt="" loading="lazy"><span aria-hidden="true">▶</span></span>
+          <span class="production-thumb"><img src="https://img.youtube.com/vi/v_nUjs29fP0/maxresdefault.jpg" alt="" loading="lazy"><span aria-hidden="true">▶</span></span>
           <span class="production-label"><span class="production-title">Efecto Mandela <span class="production-artist">· Jetsy</span></span><span class="production-action">Ver en YouTube ↗</span></span>
         </a>
         <a class="production-card" href="https://www.youtube.com/watch?v=oWRyoJDrUfo&amp;list=RDoWRyoJDrUfo&amp;start_radio=1" target="_blank" rel="noopener" aria-label="Ver Subete de Stylo y Lion Fiah en YouTube">
-          <span class="production-thumb"><img src="https://img.youtube.com/vi/oWRyoJDrUfo/hqdefault.jpg" alt="" loading="lazy"><span aria-hidden="true">▶</span></span>
+          <span class="production-thumb"><img src="https://img.youtube.com/vi/oWRyoJDrUfo/maxresdefault.jpg" alt="" loading="lazy"><span aria-hidden="true">▶</span></span>
           <span class="production-label"><span class="production-title">Subete <span class="production-artist">· Stylo x Lion Fiah</span></span><span class="production-action">Ver en YouTube ↗</span></span>
         </a>
         <a class="production-card" href="https://www.youtube.com/watch?v=QzUxhJM9LvA" target="_blank" rel="noopener" aria-label="Ver Quisiera de Jetsy en YouTube">
-          <span class="production-thumb"><img src="https://img.youtube.com/vi/QzUxhJM9LvA/hqdefault.jpg" alt="" loading="lazy"><span aria-hidden="true">▶</span></span>
+          <span class="production-thumb"><img src="https://img.youtube.com/vi/QzUxhJM9LvA/maxresdefault.jpg" alt="" loading="lazy"><span aria-hidden="true">▶</span></span>
           <span class="production-label"><span class="production-title">Quisiera <span class="production-artist">· Jetsy</span></span><span class="production-action">Ver en YouTube ↗</span></span>
         </a>
         <a class="production-card" href="https://www.youtube.com/watch?v=6mNItDpHmzA" target="_blank" rel="noopener" aria-label="Ver Prendia con Briant Breezy en YouTube">
-          <span class="production-thumb"><img src="https://img.youtube.com/vi/6mNItDpHmzA/hqdefault.jpg" alt="" loading="lazy"><span aria-hidden="true">▶</span></span>
+          <span class="production-thumb"><img src="https://img.youtube.com/vi/6mNItDpHmzA/maxresdefault.jpg" alt="" loading="lazy"><span aria-hidden="true">▶</span></span>
           <span class="production-label"><span class="production-title">Prendia <span class="production-artist">· Briant Breezy</span></span><span class="production-action">Ver en YouTube ↗</span></span>
         </a>
         <a class="production-card" href="https://youtu.be/_svZjfsg-fI?si=-ToO7jypjjYHU6F_" target="_blank" rel="noopener" aria-label="Ver lucete de Jetsy en YouTube">
-          <span class="production-thumb"><img src="https://img.youtube.com/vi/_svZjfsg-fI/hqdefault.jpg" alt="" loading="lazy"><span aria-hidden="true">▶</span></span>
+          <span class="production-thumb"><img src="https://img.youtube.com/vi/_svZjfsg-fI/maxresdefault.jpg" alt="" loading="lazy"><span aria-hidden="true">▶</span></span>
           <span class="production-label"><span class="production-title">lucete <span class="production-artist">· Jetsy</span></span><span class="production-action">Ver en YouTube ↗</span></span>
         </a>
         <a class="production-card" href="https://www.youtube.com/watch?v=lR9XaraMGv4" target="_blank" rel="noopener" aria-label="Ver Son las 12 con Alexwi en YouTube">
-          <span class="production-thumb"><img src="https://img.youtube.com/vi/lR9XaraMGv4/hqdefault.jpg" alt="" loading="lazy"><span aria-hidden="true">▶</span></span>
+          <span class="production-thumb"><img src="https://img.youtube.com/vi/lR9XaraMGv4/maxresdefault.jpg" alt="" loading="lazy"><span aria-hidden="true">▶</span></span>
           <span class="production-label"><span class="production-title">Son las 12 <span class="production-artist">· Alexwi</span></span><span class="production-action">Ver en YouTube ↗</span></span>
         </a>
         <a class="production-card" href="https://youtu.be/geBZ0ycfX1o?si=4RHuILyk38mzMCgg" target="_blank" rel="noopener" aria-label="Ver Corazon Frio de Kilate Ramos en YouTube">
-          <span class="production-thumb"><img src="https://img.youtube.com/vi/geBZ0ycfX1o/hqdefault.jpg" alt="" loading="lazy"><span aria-hidden="true">▶</span></span>
+          <span class="production-thumb"><img src="https://img.youtube.com/vi/geBZ0ycfX1o/maxresdefault.jpg" alt="" loading="lazy"><span aria-hidden="true">▶</span></span>
           <span class="production-label"><span class="production-title">Corazon Frio <span class="production-artist">· Kilate Ramos</span></span><span class="production-action">Ver en YouTube ↗</span></span>
         </a>
         <a class="production-card" href="https://www.youtube.com/watch?v=0iPBn-q_tCc&amp;list=RD0iPBn-q_tCc&amp;start_radio=1" target="_blank" rel="noopener" aria-label="Ver Chabadua de Waldy Tu Cantante Favorito en YouTube">
-          <span class="production-thumb"><img src="https://img.youtube.com/vi/0iPBn-q_tCc/hqdefault.jpg" alt="" loading="lazy"><span aria-hidden="true">▶</span></span>
+          <span class="production-thumb"><img src="https://img.youtube.com/vi/0iPBn-q_tCc/maxresdefault.jpg" alt="" loading="lazy"><span aria-hidden="true">▶</span></span>
           <span class="production-label"><span class="production-title">Chabadua <span class="production-artist">· Waldy Tu Cantante Favorito</span></span><span class="production-action">Ver en YouTube ↗</span></span>
         </a>
         <a class="production-card" href="https://www.youtube.com/watch?v=6F_PFBGwHaQ&amp;list=RD6F_PFBGwHaQ&amp;start_radio=1" target="_blank" rel="noopener" aria-label="Ver A usted de Jetsi y Nider en YouTube">
@@ -218,7 +224,7 @@
           <span class="production-label"><span class="production-title">A usted <span class="production-artist">· Jetsi &amp; Nider</span></span><span class="production-action">Ver en YouTube ↗</span></span>
         </a>
         <a class="production-card" href="https://www.youtube.com/watch?v=QTShJrrB0zU&amp;list=RDQTShJrrB0zU&amp;start_radio=1" target="_blank" rel="noopener" aria-label="Ver Amantes de Jetsy en YouTube">
-          <span class="production-thumb"><img src="https://img.youtube.com/vi/QTShJrrB0zU/hqdefault.jpg" alt="" loading="lazy"><span aria-hidden="true">▶</span></span>
+          <span class="production-thumb"><img src="https://img.youtube.com/vi/QTShJrrB0zU/maxresdefault.jpg" alt="" loading="lazy"><span aria-hidden="true">▶</span></span>
           <span class="production-label"><span class="production-title">Amantes <span class="production-artist">· Jetsy</span></span><span class="production-action">Ver en YouTube ↗</span></span>
         </a>
       </div>
@@ -273,14 +279,21 @@
 
   <div id="view-biografia" hidden>
     <section class="bio">
-      <span class="eyebrow">Productor · Colombia</span>
-      <h2>Falcon Beats</h2>
-      <p>Soy productor musical colombiano enfocado en beats, producción y masters para artistas urbanos. Mi trabajo acompaña a cada artista desde la creación de su sonido hasta el lanzamiento de su música.</p>
-      <p>También hago parte del equipo de Kilate Ramos, artista de mi sello. Juntos presentamos <strong>«Látigo»</strong>, una muestra del sonido y la energía que compartimos desde Colombia.</p>
-      <figure class="bio-signature">
-        <img src="img/signature-falcon.png" alt="Firma artística de Falcon Beats">
-        <figcaption>Falcon Beats</figcaption>
-      </figure>
+      <div class="bio-main">
+        <div class="bio-portrait-frame">
+          <img class="bio-portrait" src="img/falcon-retrato.jpg" alt="Falcon Beats, productor musical colombiano" loading="lazy">
+        </div>
+        <div class="bio-copy">
+          <span class="eyebrow">Productor · Colombia</span>
+          <h2>Falcon Beats</h2>
+          <p>Soy productor musical colombiano enfocado en beats, producción y masters para artistas urbanos. Mi trabajo acompaña a cada artista desde la creación de su sonido hasta el lanzamiento de su música.</p>
+          <p>También hago parte del equipo de Kilate Ramos, artista de mi sello. Juntos presentamos <strong>«Látigo»</strong>, una muestra del sonido y la energía que compartimos desde Colombia.</p>
+          <figure class="bio-signature">
+            <img src="img/signature-falcon.png" alt="Firma artística de Falcon Beats">
+            <figcaption>Falcon Beats</figcaption>
+          </figure>
+        </div>
+      </div>
     </section>
 
   </div>
