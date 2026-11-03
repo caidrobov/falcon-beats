@@ -76,27 +76,29 @@ section{margin-bottom:36px}
 .launch-hero-content h1{display:grid;gap:10px;margin:18px 0 16px;font-family:var(--f-display);font-size:clamp(50px,7vw,94px);font-weight:800;line-height:.96;letter-spacing:-.055em;text-shadow:0 4px 24px #0009}
 .launch-hero-content h1 span{color:var(--text)}
 .launch-hero-content h1 strong{color:var(--gold);font-size:.43em;letter-spacing:.04em}
-.launch-hero-content.home-hero-copy{width:min(74%,900px)}
-.launch-hero-content h1.home-hero-title{max-width:100%;gap:7px;margin:16px 0 12px;font-size:clamp(32px,3.8vw,50px);line-height:1.12;letter-spacing:-.04em}
+.launch-hero-content.home-hero-copy{width:min(86%,1080px)}
+.launch-hero-content h1.home-hero-title{max-width:100%;gap:5px;margin:14px 0 10px;font-size:clamp(30px,3.4vw,46px);line-height:1.1;letter-spacing:-.04em}
 .launch-hero-content h1.home-hero-title strong{font-size:1em;letter-spacing:inherit}
-.launch-hero-content>p{max-width:46ch;margin:0;color:#e3e3ed;font-size:clamp(15px,1.35vw,17px);line-height:1.6}
-.home-spotify-row{display:flex;width:min(100%,620px);align-items:center;gap:20px;margin-top:18px}
-.home-spotify-wrap{display:grid;flex:0 1 420px;min-width:0;gap:7px}
-.home-spotify-player{height:82px;overflow:hidden;border:1px solid #ffffff30;border-radius:12px;background:#111522}
+.launch-hero-content>p{max-width:58ch;margin:0;color:#e3e3ed;font-size:clamp(15px,1.25vw,17px);line-height:1.6}
+.home-spotify-row{display:flex;width:min(100%,760px);align-items:center;gap:24px;margin-top:18px}
+.home-spotify-wrap{display:grid;flex:1 1 540px;min-width:0;gap:7px;padding:12px;border:1px solid #ffffff30;border-radius:15px;background:linear-gradient(135deg,#111522e8,#15192cdb);box-shadow:0 12px 32px #0005;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+.home-spotify-label{color:var(--gold);font-family:var(--f-mono);font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}
+.home-spotify-player{height:82px;overflow:hidden;border:1px solid #ffffff24;border-radius:10px;background:#111522}
 .home-spotify-player iframe{display:block;width:100%;height:152px;border:0;transform:translateY(-1px)}
 .home-spotify-open{justify-self:end;color:#d1d2df;font-size:10px;font-weight:600;text-decoration:none}
 .home-spotify-open:hover{color:var(--gold)}
-.home-actions{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:18px}
+.home-actions{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:20px}
 .home-actions a{text-decoration:none;text-transform:uppercase}
 .home-actions .btn-buy{display:inline-flex;align-items:center;gap:9px;padding:12px 17px}
 .home-listen{display:inline-flex;align-items:center;gap:8px;padding:11px 15px;border:1px solid #ffffff50;border-radius:999px;color:var(--text);font-size:14px;font-weight:700;backdrop-filter:blur(8px)}
 .home-listen:hover{border-color:var(--gold);color:var(--gold)}
 .home-services{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:27px;color:#e1e1ea;font-family:var(--f-mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase}
 .home-services span::before{content:"";display:inline-block;width:6px;height:6px;margin:0 8px 1px 0;border-radius:50%;background:var(--gold);box-shadow:0 0 12px #f2b134a6}
-.home-socials{display:flex;flex-wrap:wrap;gap:8px 17px;margin-top:16px;padding-top:12px;border-top:1px solid #ffffff30}
-.home-socials a{color:#c1c3d3;font-size:12px;font-weight:600;text-decoration:none}
-.home-socials a:hover{color:var(--gold)}
-.home-signature{display:block;flex:0 0 150px;width:150px;height:auto;filter:drop-shadow(0 3px 12px #f2b13438)}
+.home-socials{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin-top:18px;padding-top:15px;border-top:1px solid #ffffff30}
+.home-socials a{display:inline-flex;min-height:44px;align-items:center;justify-content:center;gap:9px;padding:9px 16px;border:1px solid #ffffff30;border-radius:999px;background:#0f12206e;color:var(--text);font-size:14px;font-weight:700;text-decoration:none;transition:background .18s ease,border-color .18s ease,color .18s ease,transform .18s ease}
+.home-socials a:hover{transform:translateY(-2px);border-color:#f2b13499;background:#f2b13418;color:var(--gold)}
+.home-socials svg{display:block;width:20px;height:20px;fill:currentColor}
+.home-signature{display:block;width:min(180px,55%);height:auto;margin:12px auto 0;filter:drop-shadow(0 3px 12px #f2b13438)}
 .home-dashboard{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(280px,.85fr);gap:18px;margin-top:22px}
 .home-production-panel,.home-beat-panel{min-width:0;padding:clamp(18px,2.4vw,28px);border:1px solid var(--line);border-radius:20px;background:linear-gradient(145deg,#171b2ef2,#101421f2);box-shadow:0 18px 48px #0005}
 .home-panel-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:18px}
@@ -186,19 +188,20 @@ section{margin-bottom:36px}
   .launch-hero-content.home-hero-copy{width:100%}
   .launch-hero-content h1{font-size:clamp(52px,14vw,76px)}
   .launch-hero-content h1 strong{font-size:.38em}
-  .launch-hero-content h1.home-hero-title{font-size:clamp(30px,8.5vw,42px)}
-  .launch-hero-content>p{max-width:38ch;font-size:15px}
-  .home-spotify-row{width:100%;flex-wrap:wrap;gap:2px 12px;margin-top:14px}
-  .home-spotify-wrap{flex:1 1 100%;width:min(100%,360px)}
+  .launch-hero-content h1.home-hero-title{font-size:clamp(29px,7.8vw,38px)}
+  .launch-hero-content>p{max-width:46ch;font-size:15px}
+  .home-spotify-row{width:100%;flex-wrap:wrap;gap:8px;margin-top:16px}
+  .home-spotify-wrap{flex:1 1 100%;width:min(100%,420px);padding:10px}
   .home-spotify-player{height:78px}
   .bio-main{grid-template-columns:1fr}
   .bio-portrait-frame{width:min(100%,520px);height:auto;max-height:580px;min-height:0;aspect-ratio:4/5;margin:0 auto}
   .home-actions{gap:9px;margin-top:15px}
   .home-actions .btn-buy{padding:11px 13px;font-size:13px}
   .home-listen{padding:10px 12px;font-size:13px}
-  .home-socials{gap:8px 14px;margin-top:14px;padding-top:11px}
-  .home-socials a{font-size:11px}
-  .home-signature{flex-basis:100px;width:100px;margin-left:auto}
+  .home-socials{gap:8px;margin-top:14px;padding-top:11px}
+  .home-socials a{min-height:42px;gap:7px;padding:8px 12px;font-size:12px}
+  .home-socials svg{width:18px;height:18px}
+  .home-signature{width:min(150px,55%);margin:10px auto 0}
   .home-dashboard{grid-template-columns:1fr;gap:12px;margin-top:14px}
   .home-production-panel,.home-beat-panel{padding:18px;border-radius:16px}
   .home-production-grid{grid-template-columns:1fr}
